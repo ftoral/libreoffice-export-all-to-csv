@@ -10,7 +10,7 @@
 	saveParams(0).Name = "FilterName"
 	saveParams(0).Value = "Text - txt - csv (StarCalc)"
 	saveParams(1).Name = "FilterOptions"
-	saveParams(1).Value = "44,34,0,1,1" ' 44=comma, 34=double-quote
+	saveParams(1).Value = "59,0,0,1,1" ' 59=semicolon, 0=no quote
 
 	sheets = document.Sheets
 	currentSheet = document.GetCurrentController.GetActiveSheet()
